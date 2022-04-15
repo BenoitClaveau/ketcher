@@ -23,6 +23,13 @@
       "name": "Attach to Chrome",
       "port": 9222,
       "webRoot": "${workspaceFolder}/src"
-    }
+    },
+    {
+      "type": "pwa-chrome",
+      "request": "launch",
+      "name": "chrome",
+      "url": "http://localhost:3001",
+      "webRoot": "${workspaceFolder}/src"
+    },
   ]
 }
